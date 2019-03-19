@@ -212,6 +212,15 @@ section{
 .arr:hover {
     cursor: pointer !important;
 }
-.skills{
-    background:url(../img/s2bg.png);
+.technologies{
+    background: #5f5f5f;
+    height:200px;
+}
+.skill{
+    justify-content: left;
+    display:flex;
+}
+.visit a{
+    text-decoration: none;
+    color:#ff9c00;
 }
