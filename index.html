@@ -11,72 +11,126 @@
 </head>
 
 <body>
-        <header id="top">
-            <nav class="navbar fixed-top navbar-expand-md navbar-dark dark px-5 py-2" id="scrollTo">
-                <a class="navbar-brand logo" if="about" href="#top"><span class="orange">&2</span> Portfolio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <header id="top">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark dark px-5 py-2" id="scrollTo">
+            <a class="navbar-brand logo" if="about" href="#top"><span class="orange">&2</span> Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#top" class="nav-link mr-3">About</a></li>
-                        <li class="nav-item"><a href="#skills" class="nav-link mr-3" >Skills & projects</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link" >Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <section class="pt-5">
-            <article>
-                <div class="container">
-                    <div class="row">
-                        <div id="pic" class="col-12 col-md-6 col-lg-5 slideLeft">
-                            <img class="blender" src="img/blender.png" alt="blender" width="285" height="500">
-                        </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#top" class="nav-link mr-3">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link mr-3">Skills & projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-                        <div class="col-12 col-md-6 col-lg-6 mt-5 slideRight aboutMe">
-                            <h1>Hello! my name is <span class="orange">Dominik</span></h1> <br />
-                            <h3>I'm 23, and i'm master degree IT student at University of Economics<span style="white-space: nowrap"> in Cracow.</span> <br /> I live in Wieliczka.<br /> <br />Programming is my passion and i would like to find a job as <span class="orange">web developer.</span></h3>
-                        </div>
-                        <div class="offset-lg-1"></div>
+    <section class="pt-5">
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div id="pic" class="col-12 col-md-6 col-lg-5 slideLeft">
+                        <img class="blender" src="img/blender.png" alt="blender" width="285" height="500">
+                    </div>
 
-                        <div class="col-12 mt-5">
-                            <h3 class="scroll mb-5">Scroll to skills</h3>
-                        </div>
+                    <div class="col-12 col-md-6 col-lg-6 mt-5 slideRight aboutMe">
+                        <h1>Hello! my name is <span class="orange">Dominik</span></h1> <br />
+                        <h3>I'm 23, and i'm master degree IT student at University of Economics<span style="white-space: nowrap">
+                                in Cracow.</span> <br /> I live in Wieliczka.<br /> <br />Programming is my passion and
+                            i would like to find a job/intern as <span class="orange">Front-end Developer.</span></h3>
+                    </div>
+                    <div class="offset-lg-1"></div>
 
-                        <div class="col-12">
-                            <div class="bounce">
-                                <a id="scroll" href="#skills"><img class="mx-auto d-block arr" width="89" height="58" alt="scroll-arrow" src="img/down-arrow.png" /></a>
-                            </div>    
+                    <div class="col-12 mt-5">
+                        <h3 class="scroll mb-5">Scroll to skills</h3>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="bounce">
+                            <a id="scroll" href="#skills"><img class="mx-auto d-block arr" width="89" height="58" alt="scroll-arrow"
+                                    src="img/down-arrow.png" /></a>
                         </div>
                     </div>
                 </div>
-            </article>
-        </section>
+            </div>
+        </article>
+    </section>
 
     <section id="skills" class="skills pt-1">
         <div class="container">
+            <div class="row mt-5 mt-lg-4 ">
+                <div class="col-12">
+                    <h1 class="mx-auto d-block" style="width:248px">Skills & projects</h1>
+                </div>
+
+                <div class="col-12" style="height:540px"> </div>
+            </div>
+        </div>
+
+        <div class="technologies">
+            <div class="row mx-5">
+                <div class="offset-1"></div>
+
+                <div class="col-2">
+                    <img class="mt-4" src="img/css.png" alt="css3" width="115" height="115" />
+                </div>
+
+                <div class="col-2">
+                    <img class="mt-4" src="img/react.png" alt="react" width="115" height="115" />
+                </div>
+
+                <div class="col-2">
+                    <img class="mt-4" src="img/js.png" alt="js" width="115" height="115" />
+                </div>
+
+                <div class="col-2">
+                    <img class="mt-4" src="img/bs.png" alt="bootstrap" width="115" height="115" />
+                </div>
+
+                <div class="col-2">
+                    <img class="mt-4" src="img/HTML.png" alt="html" width="115" height="115" />
+                </div>
+
+                <div class="offset-1"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="mt-2 mx-auto d-block">Technologies i used</h1>
+                    <h1 class="pt-5">Contact</h1>
+
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Email address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Example textarea</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        </div>
+                    </form>
+                </div>
+                </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="pt-5">Contact</h1>
-                    </div>
-                </div>
-            </div>
-    </section>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
